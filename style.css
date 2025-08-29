@@ -45,18 +45,20 @@ body {
 .column-layout {
   display: flex;
   flex-direction: row;
-  gap: 20px; 
+  gap: 20px;
   justify-content: space-around;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 /** CSS correspondiente a function cambiarColor() **/
 .card-title.cambiado {
-  color: #cc0033; /* Rojo elegante, puedes cambiarlo por otro */
+  color: #cc0033;
+  /* Rojo elegante, puedes cambiarlo por otro */
 }
 
 .card-content.cambiado {
-  font-family: 'Georgia', serif; /* Fuente más literaria */
+  font-family: 'Georgia', serif;
+  /* Fuente más literaria */
   font-style: italic;
 }
 
@@ -79,25 +81,27 @@ body {
 
 }
 
-.footer-description{
+.footer-description {
   padding: 0.5rem;
 }
 
 /** CSS para agregar imagen en el footer**/
 
 .footer-img-container {
-  height: 130px; /* Altura reservada para la imagen */
+  height: 130px;
+  /* Altura reservada para la imagen */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .footer-img {
   max-height: 120px;
   border-radius: 8px;
 }
 
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: row;
   padding-right: 1rem;
