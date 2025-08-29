@@ -53,12 +53,10 @@ body {
 /** CSS correspondiente a function cambiarColor() **/
 .card-title.cambiado {
   color: #cc0033;
-  /* Rojo elegante, puedes cambiarlo por otro */
 }
 
 .card-content.cambiado {
   font-family: 'Georgia', serif;
-  /* Fuente más literaria */
   font-style: italic;
 }
 
@@ -89,7 +87,6 @@ body {
 
 .footer-img-container {
   height: 130px;
-  /* Altura reservada para la imagen */
   display: flex;
   justify-content: center;
   align-items: center;
