@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Nuevo Libro</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -13,7 +13,14 @@
   <header class="header">
     <h1> Libro Demo </h1>
     <p>Descubre las maravillas de esta obra literaria!</p>
+    <div class="buttons">
+      <button class="buttons-button" id="organizar" onclick="organizar()"> Organizar </button>
+      <button class="buttons-button" id="cambiarTitulo" onclick="cambiarTitulo()"> Cambiar Titulo </button>
+      <button class="buttons-button" id="cambiarColorTitulo" onclick="cambiarColor()"> Cambiar Color de Titulos </button>
+      <button class="buttons-button" id="agregarImagenFooter" onclick="agregarImagen()"> Agregar Imagen en Footer </button>
+    </div>
   </header>
+
 
   <section class="main">
     <div class="card">
@@ -60,6 +67,7 @@
       </h2>
       <p class="footer-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis in, sit necessitatibus atque tempora
         delectus, corporis exercitationem</p>
+      <div class="footer-img-container"></div>
     </div>
   </footer>
 
